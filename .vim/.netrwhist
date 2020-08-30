@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/var/lib/prosody'
+let g:netrw_dirhist_2='/home/yud1z/.emacs'
+let g:netrw_dirhist_3='/home/yud1z'
+let g:netrw_dirhist_4='/sw/etc/apt/apt.conf.d'
+let g:netrw_dirhist_5='/usr/local/lib/pkgconfig'
+let g:netrw_dirhist_6='/Users/yud1z/Desktop/vrevise/css'
+let g:netrw_dirhist_7='/Users/yud1z/.vim'
