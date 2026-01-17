@@ -1339,10 +1339,8 @@ v_[%	matchit.txt	/*v_[%*
 v_]%	matchit.txt	/*v_]%*
 v_a%	matchit.txt	/*v_a%*
 v_g%	matchit.txt	/*v_g%*
-vim	vimacs.txt	/*vim*
 vim-colors-solarized	solarized.txt	/*vim-colors-solarized*
 vim-emacs-similarity	vimacs.txt	/*vim-emacs-similarity*
-vimacs	vimacs.txt	/*vimacs*
 vimacs	vimacs.txt	/*vimacs*
 vimacs-'cedit'	vimacs.txt	/*vimacs-'cedit'*
 vimacs-0.9	vimacs.txt	/*vimacs-0.9*

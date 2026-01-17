@@ -1,5 +1,5 @@
-set encoding=utf8
-set guifontwide=NSimSun
+"set encoding=utf8
+"set guifontwide=NSimSun
 " set autochdir
 "cd %:h
 let NERDTreeChDirMode=2
@@ -54,18 +54,20 @@ set hidden
 "ganti warna skema
 syntax enable
 
-"set t_Co=16
-if has("gui_running")
-	let g:solarized_termcolors=16
-	set background="dark"
-	colorscheme solarized
-endif
+" Use terminal colors instead of 24-bit RGB
+set notermguicolors
+set t_Co=16
 
-"set contrast=low
-"colorscheme default 
+" Set background (change to 'light' if using light terminal theme)
+set background=dark
+
+" Solarized colorscheme settings for terminal
+let g:solarized_termcolors=16
+let g:solarized_termtrans=1
+colorscheme solarized
 
 "menu bar
-:set guioptions+=m
+":set guioptions+=m
 "set guifont=Monaco\ 12
 "set guifont=Monaco:h12
 
@@ -75,7 +77,7 @@ vnoremap <C-x> <ESC>
 nnoremap <C-x> <ESC>
 
 "untuk hide toolbar
-set guioptions-=T
+"set guioptions-=T
 
 "untuk simpan
 noremap   <C-E> :wall<CR>:mksession! ~/session.vim<CR>
@@ -132,7 +134,7 @@ nnoremap <silent> # #zz
 nnoremap <silent> g* g*zz
 
 "hide scrollbar
-set guioptions-=r
+"set guioptions-=r
 
 ""move cursor when insert mode
 "imap <C-h> <C-o>h
@@ -150,7 +152,7 @@ nnoremap U <C-r>
 ":vmap <C-c> :w !pbcopy<CR><CR>
 
 "toggle list NerdTRee
-noremap   <silent> <C-i> :NERDTreeToggle<CR>
+noremap   <silent> <Tab> :NERDTreeToggle<CR>
 
 "copas kaya di windows
 nmap <C-V> "+gp
